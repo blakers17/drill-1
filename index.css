@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; 
+}
+.top-bar {
+    background-color: #434343;
+    padding: 70px;
+}
+.right-bar
+.left-bar {
+    background-color:lightslategray;
+    position: fixed;
+    top: 0;
+    bottom: 0px;
+    width: 130px;
+}
+.left-bar {
+    left: 0;
+    z-index: 1;
+}
+.right-bar {
+    right: 0;
+    z-index: 1;
+}
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 130px;
+    right: 130px;
+    height: 70px;
+    background-color: #201f1f;
+}
